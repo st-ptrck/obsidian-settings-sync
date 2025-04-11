@@ -1,0 +1,33 @@
+# Obsidian Vaults Configuration File
+# ----------------------------------
+#
+# This is a template for listing your Obsidian vaults.
+# To use this file:
+#
+# 1. Make a copy with a .conf extension (e.g., "my-vaults.conf")
+# 2. Add the full paths to your Obsidian vaults (one per line)
+# 3. Use the file with the script:
+#    ./obsidian-settings-sync.sh /path/to/source/vault --config my-vaults.conf
+#
+# IMPORTANT: Use full paths, not relative paths.
+# IMPORTANT: Lines starting with # are comments and will be ignored.
+
+# Examples for different operating systems:
+# -----------------------------------------
+
+# Linux example:
+# /home/user/Documents/PersonalVault
+# /home/user/Documents/Work Vault
+
+# macOS example:
+# /Users/username/Documents/PersonalVault
+# /Users/username/Documents/Work Vault
+# /Users/username/Library/CloudStorage/Dropbox/ObsidianVault
+
+# Windows example (use forward slashes):
+# C:/Users/username/Documents/PersonalVault
+# C:/Users/username/Documents/Work Vault
+# D:/Backups/ObsidianVault
+
+# Add your vault paths below this line:
+# -------------------------------------
