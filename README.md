@@ -13,6 +13,16 @@ A Bash script for synchronizing Obsidian settings (`.obsidian` directory) across
 
 Obsidian users often maintain multiple Vaults for different purposes (personal, work, projects, etc.) and want to keep consistent settings, themes, and plugins across them. This script automates the process of copying your settings from one Vault to others.
 
+
+## Important Notes
+
+- **This will completely replace the `.obsidian` directory in destination Vaults**
+- Plugin settings, themes, CSS snippets, hotkeys, and workspace layouts will all be synced
+- You may need to restart Obsidian in destination Vaults to see changes
+- Some plugins might have Vault-specific settings that you'll need to reconfigure
+- Your configuration files (with `.conf` extension) will not be tracked by git
+
+
 ## Features
 
 - Only syncs to existing Vaults with valid Obsidian structure
@@ -108,13 +118,6 @@ cp vaults.conf.template my-vaults.conf
 - Verifies each destination is a valid Obsidian Vault before syncing
 - Validates configuration files before proceeding
 
-## Important Notes
-
-- **This will completely replace the `.obsidian` directory in destination Vaults**
-- Plugin settings, themes, CSS snippets, hotkeys, and workspace layouts will all be synced
-- You may need to restart Obsidian in destination Vaults to see changes
-- Some plugins might have Vault-specific settings that you'll need to reconfigure
-- Your configuration files (with `.conf` extension) will not be tracked by git
 
 ## License
 
