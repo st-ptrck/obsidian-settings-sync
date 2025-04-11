@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
+# Ignore all .conf files (configuration files)
+*.conf
+
+# But don't ignore the template
+!*.conf.template
+
 ### macOS ###
 # General
 .DS_Store
